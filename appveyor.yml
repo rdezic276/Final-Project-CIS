@@ -5,4 +5,8 @@ environment:
           PYTHON_ARCH: "32"
 
 build_script:
-  - "%PYTHON%\\python.exe setup.py build"
+  - "%PYTHON%\\python.exe setup.py build sdist"
+
+artifacts:
+  - path: dist\*
+

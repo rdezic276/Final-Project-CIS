@@ -1,2 +1,3 @@
 dist/
 rasims_math.egg-info/
+*.pyc
